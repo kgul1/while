@@ -1,18 +1,20 @@
 #include <iostream>
-using namespace std;
+/*
+ wykonaj przyklad petli while dla i <5
+  */
+
+using  namespace  std;
 int main() {
-   /*
-  napisz krotki porgram wykorzystujacy funkcje break jesli i==3 i<10 ; i++;
-    petla ma sie zatrzymac na liczbie
-   */
-   for(int i=3;i<10;i++){
-       if(i==4){
-           cout<<i<<endl;
-         break;
+    int i=4;
+    while(i<=15){
+    i++;
+    if(i==15){
+        cout<<i;
+        break;
+    }
 
-       }
-   }
-   cout<<"wyszles z petli for po liczbie 4";
-
-   return 0;
+    }
+   cout<<"\ngratulacje wyszles z petli while po i==15";
+    return 0;
 }
+
